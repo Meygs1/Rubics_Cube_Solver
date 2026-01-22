@@ -157,4 +157,23 @@ cv.destroyAllWindows()
 # - Capture all 6 sides
 # - Map colors to kociemba notation
 # - Solve cube using kociemba
+# - Convert solution notation to step-by-step instructions
 # - Output solution steps
+
+
+# instruction_text = {
+#     'U': "Scan TOP face (WHITE center)",
+#     'R': "Scan RIGHT face (RED center)",
+#     'F': "Scan FRONT face (GREEN center)",
+#     'D': "Scan BOTTOM face (YELLOW center)",
+#     'L': "Scan LEFT face (ORANGE center)",
+#     'B': "Scan BACK face (BLUE center)"
+# }
+# expected_center = {
+#     'U': W, 'R': R, 'F': G,
+#     'D': Y, 'L': O, 'B': B
+# }
+
+# if cube[1][1] != expected_center[face_key]:
+#     current_instruction = "Wrong face! Check center color."
+#     continue
