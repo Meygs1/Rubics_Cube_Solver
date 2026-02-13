@@ -34,4 +34,4 @@ pip install PyQt6 opencv-python numpy kociemba
 ![ScanningMode2](Pics/Screenshot2.png)
 ![SolutionMode1](Pics/Screenshot3.png)
 ![SolutionMode2](Pics/Screenshot4.png)
-![SolvedPic](Pics/Solved.png)
+![SolvedPic](Pics/Solved.jpeg)
